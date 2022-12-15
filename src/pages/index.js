@@ -1,9 +1,9 @@
 import React from 'react'
 
-import { Link, graphql } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faAngleRight,faChevronUp,faCircleChevronRight } from "@fortawesome/free-solid-svg-icons"
+import { faChevronUp } from "@fortawesome/free-solid-svg-icons"
 
 import Seo from '../components/Seo';
 import Header from '../components/Header';
@@ -125,9 +125,9 @@ export default function Home() {
                 </div>
               </section>
               <section id="bikke">
-                <div id="idp"><img src="/images/top/bikke.png" alt="猫のビッケの写真" /></div>
+                <div id="idp"><StaticImage src="../images/top/bikke.png" alt="猫のビッケの写真" /></div>
                 <div id="introduction">
-                  <h6><img src="/images/top/hbikke.png" alt="ペット火葬・葬儀「愛心ペットセレモニー埼玉」店長のご紹介" /></h6>
+                  <h6><StaticImage src="../images/top/hbikke.png" alt="ペット火葬・葬儀「愛心ペットセレモニー埼玉」店長のご紹介" /></h6>
                   <p>施設店長猫の（ビッケ）です。癒しを担当しています。　がっ… たまにサボって遊びにイっちゃいます！</p>
                 </div>
               </section>
@@ -178,7 +178,7 @@ export default function Home() {
                 <section>
                   <h2>メモリアルジュエリー</h2>
                   <p>メモリアルジュエリーは、大切なパートナーのお遺骨を樹脂で特殊加工し永遠の形見としてお持ちいただくオンリーワンジュエリー。<br /><span style={{color: '#f07020', fontSize: '85%'}}>制作をしばらく間お休みいたします。</span></p>
-                  <p><a className="hover" href="http://ptns.jp/jewelry/index.html" target="_blank">詳細はこちら</a></p>
+                  <p><a className="hover" href="http://ptns.jp/jewelry/index.html" target="_blank" rel="noopener noreferrer">詳細はこちら</a></p>
                 </section>
               </section>
               <section className="service-pake">
@@ -186,7 +186,7 @@ export default function Home() {
                 <section>
                   <h2>虹の橋ゆうびん館（お手紙）</h2>
                   <p>「虹の橋のたもと」にいる大好きな子にお手紙を書いてみませんか？　2～3週間後、あの子から「写真入りオリジナルメッセージ」が届きます。<br /><span style={{color: '#f07020', fontSize: '92%', fontWeight: 'bold'}}>当施設にてご購入いただけます。</span></p>
-                  <p><a className="hover" href="https://www.nijinohashi-yuubinkan.com/" target="_blank">詳細はこちら</a></p>
+                  <p><a className="hover" href="https://www.nijinohashi-yuubinkan.com/" target="_blank" rel="noopener noreferrer">詳細はこちら</a></p>
                 </section>
               </section>
             </div>
@@ -261,12 +261,12 @@ export default function Home() {
           <article className="poem">
             <div className="poem-rb">
               <a href="/rainbowbridge">
-                <img src="/images/top/RainbowBridge.jpg" alt="虹の橋のお話" />
+                <StaticImage src="../images/top/RainbowBridge.jpg" alt="虹の橋のお話" />
               </a>
             </div>
             <div className="poem-tc">
               <a href="/tencommandments">
-                <img src="/images/top/TenCommandments.jpg" alt="犬の十戒のお話" />
+                <StaticImage src="../images/top/TenCommandments.jpg" alt="犬の十戒のお話" />
               </a>
             </div>
           </article>

@@ -15,6 +15,11 @@
 	display: flex;
 	flex-wrap: wrap;
 }
+
+@media (max-width: 1024px) {
+	#page-info #breadcrumb ul{ width: 100%; }
+}
+
 #page-info #breadcrumb li:after { content: " > "; margin: 0 10px; }
 #page-info #breadcrumb li:last-child:after { display: none;}
 #page-info #breadcrumb li a{
@@ -237,6 +242,7 @@
 #submain .box{
 	padding: 3%;
 	border: 1px solid #CCCCCC;
+	margin-bottom: 50px;
 }
 #submain .top0{
 	margin-top: 0px;

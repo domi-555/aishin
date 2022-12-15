@@ -46,9 +46,9 @@ export default function dryice() {
                     </ul>
                     <div className="gmap">
                         <div className="gmap-inner">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.259841245554!2d139.48304097032306!3d35.89165126231431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018db09d41f11a9%3A0xa2881053133aa910!2z44ON44Kz44Gu5omL44O744K144O844OT44K5!5e0!3m2!1sja!2sjp!4v1657086821031!5m2!1sja!2sjp" width="100%" height="auto" style={{border: 0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.259841245554!2d139.48304097032306!3d35.89165126231431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018db09d41f11a9%3A0xa2881053133aa910!2z44ON44Kz44Gu5omL44O744K144O844OT44K5!5e0!3m2!1sja!2sjp!4v1657086821031!5m2!1sja!2sjp" width="100%" height="auto" title="ネコの手サービスさんアクセスマップ" style={{border: 0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
                         </div>
-                        <p><a href="https://goo.gl/maps/8kamMV2jPJAs6grt5" target="_blank">&gt;&gt;Goodle Mapで見る</a></p>
+                        <p><a href="https://goo.gl/maps/8kamMV2jPJAs6grt5" target="_blank" rel="noopener noreferrer">&gt;&gt;Goodle Mapで見る</a></p>
                     </div>{/*gmap*/}
                     </section>
                     <section className="box2">
@@ -62,9 +62,9 @@ export default function dryice() {
                     </ul>
                     <div className="gmap">
                         <div className="gmap-inner">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9207.5247754909!2d139.46018906243202!3d35.78514417661419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018dd8a69a56d19%3A0xae4d9b8a8ff5e85b!2z77yI5pyJ77yJ5bCP6LC36YeO5ZWG5bqX!5e0!3m2!1sja!2sjp!4v1657088337581!5m2!1sja!2sjp" width="100%" height="auto" style={{border: 0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9207.5247754909!2d139.46018906243202!3d35.78514417661419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018dd8a69a56d19%3A0xae4d9b8a8ff5e85b!2z77yI5pyJ77yJ5bCP6LC36YeO5ZWG5bqX!5e0!3m2!1sja!2sjp!4v1657088337581!5m2!1sja!2sjp" width="100%" height="auto" title="小谷野商店さんアクセスマップ" style={{border: 0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
                         </div>
-                        <p><a href="https://goo.gl/maps/YAFZeixmyQjZ3chj6" target="_blank">&gt;&gt;Goodle Mapで見る</a></p>
+                        <p><a href="https://goo.gl/maps/YAFZeixmyQjZ3chj6" target="_blank" rel="noopener noreferrer">&gt;&gt;Goodle Mapで見る</a></p>
                     </div>{/*gmap*/}
                     </section>
                 </div>
@@ -81,9 +81,9 @@ export default function dryice() {
                     </ul>
                     <div className="gmap">
                         <div className="gmap-inner">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9209.721538734828!2d139.55087472159306!3d35.8115455076586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e8345ced4f5f%3A0x9ee84d8cfd16f0fd!2z77yI5qCq77yJ5bmz5aGa5ZWG5LqL!5e0!3m2!1sja!2sjp!4v1657088747674!5m2!1sja!2sjp" width="100%" height="auto" style={{border: 0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9209.721538734828!2d139.55087472159306!3d35.8115455076586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e8345ced4f5f%3A0x9ee84d8cfd16f0fd!2z77yI5qCq77yJ5bmz5aGa5ZWG5LqL!5e0!3m2!1sja!2sjp!4v1657088747674!5m2!1sja!2sjp" width="100%" height="auto" title="平塚商事さんアクセスマップ" style={{border: 0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
                         </div>
-                        <p><a href="https://goo.gl/maps/Q5A1xxmCCfSr84VQ7" target="_blank">&gt;&gt;Goodle Mapで見る</a></p>
+                        <p><a href="https://goo.gl/maps/Q5A1xxmCCfSr84VQ7" target="_blank" rel="noopener noreferrer">&gt;&gt;Goodle Mapで見る</a></p>
                     </div>{/*gmap*/}
                     </section>
                 </div>
@@ -101,9 +101,9 @@ export default function dryice() {
                     </ul>
                     <div className="gmap">
                         <div className="gmap-inner">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7753.378808303108!2d139.6413726067915!3d35.8578583785164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018c1d5d177e7d5%3A0xb7769b52d601ad17!2z5rWF5bed5ZWG5bqX!5e0!3m2!1sja!2sjp!4v1657088659432!5m2!1sja!2sjp" width="100%" height="auto" style={{border: 0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7753.378808303108!2d139.6413726067915!3d35.8578583785164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018c1d5d177e7d5%3A0xb7769b52d601ad17!2z5rWF5bed5ZWG5bqX!5e0!3m2!1sja!2sjp!4v1657088659432!5m2!1sja!2sjp" width="100%" height="auto" title="浅川商店さんアクセスマップ" style={{border: 0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
                         </div>
-                        <p><a href="https://goo.gl/maps/fVM8owKxuSWwJNeV7" target="_blank">&gt;&gt;Goodle Mapで見る</a></p>
+                        <p><a href="https://goo.gl/maps/fVM8owKxuSWwJNeV7" target="_blank" rel="noopener noreferrer">&gt;&gt;Goodle Mapで見る</a></p>
                     </div>{/*gmap*/}
                     </section>
                 </div>

@@ -1,10 +1,6 @@
 import React from 'react'
 import PropTypes from "prop-types"
 
-import { AnchorLink } from "gatsby-plugin-anchor-links";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faAngleRight,faChevronUp,faCircleChevronRight } from "@fortawesome/free-solid-svg-icons"
-
 import Sidebar from './Sidebar';
 import Footer from './Footer';
 

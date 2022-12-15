@@ -55,7 +55,7 @@ export default class App extends React.Component {
       return (
         <Calendar
           locale="ja-JP"
-          
+          calendarType="US"
           tileClassName={this.getTileClass}
           tileContent={this.getTileContent}
         />

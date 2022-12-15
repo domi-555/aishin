@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { StaticImage } from "gatsby-plugin-image"
 const Mainimege = () => {
   return (
     <>
@@ -11,7 +11,7 @@ const Mainimege = () => {
                         <p>私たちにできるお仕事、それは心のこもった供養で<br />愛するペットを天国へと送り届けてあげること。</p>
                     </div>
                     <div className="site-image">
-                        <img src="/images/top/topsp.jpg" alt="" />
+                        <StaticImage src="../images/top/topsp.jpg" alt="" />
                     </div>
                 </div>
             </section>

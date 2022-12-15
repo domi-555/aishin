@@ -245,8 +245,9 @@ export default function tokorozawa() {
             <th className="text1">※料金は、ペットの 種類ではなく、ペットの体重で決まります。</th>
             <th className="text1" colSpan={4} />
             </tr>
-            </tbody></table>
-            </div>{/*.blog-*/}
+            </tbody>
+            </table>
+            </div>
 
         </Layout>
       
