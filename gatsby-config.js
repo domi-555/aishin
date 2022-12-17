@@ -7,6 +7,11 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
+
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`
+});
+
 module.exports = {
   siteMetadata: {
     title: "愛心ペットセレモ二ー埼玉",
@@ -54,6 +59,25 @@ module.exports = {
       resolve: `gatsby-plugin-sass`,
       options: {
         outputStyle: 'compressed', // nested, expanded, compact, compressed,
+      },
+    },
+
+    {
+      resolve: 'gatsby-source-microcms',
+      options: {
+        apiKey: 'pwflvZ07ONay0up39Atuph0PSIBXE9unb7xj',
+        serviceId: 'aishin2484',
+        apis: [
+          {
+            endpoint: 'topics',
+          },
+          {
+            endpoint: "category",
+          },
+          {
+            endpoint: 'notice',
+          },
+        ],
       },
     },
 

@@ -1109,3 +1109,17 @@ div.map-canvas{
 #submain .blog div.table {
     margin-bottom: 1em;
 }
+
+.cat_list {
+    color: #fff;
+    background: #b1c8dc;
+    display: block;
+    padding: 5px 14px;
+    margin-right: auto;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: auto;
+    max-width: 54px;
+}

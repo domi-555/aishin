@@ -493,12 +493,13 @@ p#credit-card-1row{
 	margin-left: 0%;
 }
 */
-.service-pake div{
-/*
+/*.service-pake div{
+
 	width: 214px;
 	margin-right: auto;
 	margin-left: auto;
-*/
+}*/
+.service_img {
     width: 30%;
 }
 .service-pake div + section {
@@ -611,16 +612,16 @@ p#credit-card-1row{
 #topics dl.news dd{
 	font-size: 90%;
 }
-#topics dl.news dd.news-title{
+#topics dl.news dd{
 	margin-bottom: 10px;
 }
-#topics dl.news dd.news-title a{
+#topics dl.news dd a{
 	font-size: 120%;
 	font-weight: bold;
 	color: #333333;
 	text-decoration: underline;
 }
-#topics #topics-header p a:hover,#topics dl.news dd.news-title a:hover{
+#topics #topics-header p a:hover,#topics dl.news a:hover{
 	color: #777;
 }
 
